@@ -23,7 +23,7 @@ def user_choice():
 		print ('You choose ' + str(user_choice) + ' and the result for the first function is...') 
 		result = collatz(user_choice)
 		if result == 1:
-			break
+			sys.exit(0)
 		
 
 user_choice()

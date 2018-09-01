@@ -41,8 +41,8 @@ def hangman(word): # Create the hangman function to store this game; the func ac
 			print(" ".join(board))
 			win = True
 			break
-		if not win:
-			print("\n".join(stages[0:wrong]))
-			print("You lose! It was {}.".format(word))
+	if not win:
+		print("\n".join(stages[0:wrong]))
+		print("You lose! It was {}.".format(word))
 
 hangman("cat")

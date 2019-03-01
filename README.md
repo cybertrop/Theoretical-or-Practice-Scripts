@@ -1,4 +1,4 @@
 # Practice Scripts
-# Language Arbitrary 
+Language Arbitrary 
 
-A collection of randomy python scripts I've used for training/practice purposes
+A collection of random  scripts I've used for training/practice purposes
